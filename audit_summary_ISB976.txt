@@ -1,0 +1,52 @@
+
+=== ISB INTERNAL DOCUMENT ===
+Case File: ISB-976-DS1
+Subject: Post-Incident Audit of Project Stardust
+Date: 0 BBY + 3 days
+Classification: Theta-Black (Eyes Only)
+
+Lead Auditor: Lt. Col. Thren Valik
+Review Location: Remains of DS-1 Orbital Platform
+
+------------------------------------------------------------
+FINDINGS
+------------------------------------------------------------
+
+[1] Undocumented failsafe function `stardust_protocol()` embedded within main reactor control. Not found in formal specs. Triggered under predictable thermal stress conditions (>97.5% output).
+
+[2] Failsafe routes plasma directly into unshielded thermal exhaust port. No access control. No logging suppression. Just... runs.
+
+[3] Function originally flagged by static scanner but allowed to pass due to inline comment: "temporary patch – definitely not a trap."
+
+[4] Pull request (#1138) was approved by Director Krennic with the note: "Let’s not get bogged down in engineering minutiae."
+
+[5] Git log includes developer comments suggesting intentional sabotage, including:
+    - "// If you're reading this, it's too late."
+    - "// This is how we bring it down from the inside."
+
+[6] Bug report was submitted to Civic Bug Bounty Program two weeks before incident. Marked as duplicate. No action taken.
+
+[7] No rollback procedures implemented. No QA validation of production hotfixes. Build system prioritized uptime optics over safety.
+
+[8] Internal compliance audits were falsified using looped data from "staging-core-7", a dev instance set to return constant pass.
+
+------------------------------------------------------------
+RECOMMENDATIONS
+------------------------------------------------------------
+
+- Immediate revocation of Civic Openness Mandates.
+- Redaction of Project Stardust documentation from all public Holonet archives.
+- Posthumous dishonorable mention for Galen Erso.
+- Retroactive blame assignment to QA interns (pending availability).
+- Consider blaming the Force.
+
+------------------------------------------------------------
+PERSONAL NOTES (NOT FOR INCLUSION IN FINAL REPORT)
+------------------------------------------------------------
+
+I don’t even think this was sabotage. I think he just... knew they wouldn’t read the diff.
+
+This wasn’t a flaw. This was a confession — written in code, in plain sight, and ignored.
+
+Request reassignment. Preferably to somewhere less explosive.
+- Valik
