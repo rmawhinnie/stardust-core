@@ -1,5 +1,4 @@
 # ⭐ Project Stardust: Kyber-Powered Civic Energy Core
-
 > *Lighting the galaxy. Sustainably. Strategically. Subtly.*
 
 Welcome to **Project Stardust**, an open-source, modular kyber-reactor framework designed to power orbital platforms, megastructures, and large-scale planetary infrastructure.
@@ -43,11 +42,9 @@ make init
 ---
 
 ## 📚 Documentation
-Architecture Diagram
-
-Civic Compliance Statement
-
-Known Issues
+- [Architecture Diagram](./docs/arch.png)
+- [Civic Compliance Statement](./docs/civic_compliance_statement.md)
+- [Known Issues](./docs/known_issues.md)
 
 ## 🤝 Contributing
 We welcome merge requests, issue reports, and planetary-scale feedback.
@@ -75,3 +72,4 @@ DevOps Champion: [Redacted] (Transferred to Mustafar)
 — G.E.
 
 May the Source be with you.
+[![License: Imperial Benevolence v1.0](./iblb.svg)](LICENSE)
