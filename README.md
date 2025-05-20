@@ -39,3 +39,39 @@ git clone https://git.holonet.gov/imp-energy/stardust-core.git
 cd stardust-core
 make init
 ./ignite-core.sh --env=production
+```
+---
+
+## 📚 Documentation
+Architecture Diagram
+
+Civic Compliance Statement
+
+Known Issues
+
+## 🤝 Contributing
+We welcome merge requests, issue reports, and planetary-scale feedback.
+To contribute, please review our CONTRIBUTING.md and agree to the Imperial Benevolence License.
+
+If you are a Rebel sympathizer, slicer, or Force-sensitive dissident:
+We respectfully ask you to fork the repo and handle your business elsewhere.
+
+## 🔐 Security
+This project participates in the Empire’s Civic Bug Bounty Program.
+
+To date, no valid vulnerabilities have been acknowledged.
+Please submit responsibly. We triage based on planetary proximity and political loyalty.
+
+## 🙏 Acknowledgments
+Lead Architect: Galen Erso
+
+Oversight: Director Orson Krennic
+
+CI/CD Sponsor: The Imperial Bureau of Civic Enlightenment (BICE)
+
+DevOps Champion: [Redacted] (Transferred to Mustafar)
+
+“There is no flaw. The flaw is their faith in oversight.”
+— G.E.
+
+May the Source be with you.
